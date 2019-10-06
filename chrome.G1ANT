@@ -1,0 +1,7 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+
+-chrome url ⟦text⟧
+-The chrome command opens Google Chrome browser and displays the specified page
+chrome url https://www.google.com/search?q=g1ant

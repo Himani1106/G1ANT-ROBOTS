@@ -1,0 +1,6 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+program notepad
+program chrome
+waitfor.window ‴Untitled - Notepad‴ timeout 5000

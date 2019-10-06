@@ -1,0 +1,8 @@
+addon googledocs version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+googlesheet.open 1wS4ziYoNQ88tnit_0w_7yk8iUwHSg6Pipur4PXTHfwA
+googlesheet.gettitle ♥title
+dialog ♥title
+googlesheet.close

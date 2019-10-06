@@ -1,0 +1,10 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-mouse.click position ⟦point⟧ button ⟦text⟧ relative ⟦bool⟧ type ⟦text⟧ count ⟦integer⟧ mousedelay ⟦integer⟧
+-This command moves mouse cursor to the required position and performs a mouse button action.
+for ♥i from 1 to 5
+keyboard ⋘WIN+D⋙
+mouse.click 664⫽346 relative false type down
+mouse.click 1362⫽671 relative false type up mousedelay 500
+end

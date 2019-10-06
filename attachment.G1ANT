@@ -1,0 +1,21 @@
+addon net version 4.101.0.0
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+♥login = ♥credential⟦gmail:login⟧
+♥password = ♥credential⟦gmail:password⟧
+♥from = 5/9/2019 00:00:00 AM
+♥to = 6/9/2019 00:00:00 AM
+
+mail.imap imap.gmail.com login ♥login password ♥password sincedate ♥from todate ♥to timeout 120000 onlyunreadmessages false markasread false ignorecertificateerrors true result ♥messagesList 
+foreach ♥element in ♥messagesList
+  ♥attachments = ♥element⟦attachments⟧
+  foreach ♥singleAttachment in ♥attachments
+    ♥path = ♥singleAttachment⟦path⟧
+    dialog ♥path
+-    each attachment’s local path is displayed
+    file.copy path ♥path destinationpath ♥environment⟦USERPROFILE⟧\Desktop\♥singleAttachment⟦name⟧
+  end
+  
+end
+

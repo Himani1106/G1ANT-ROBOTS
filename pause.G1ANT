@@ -1,0 +1,6 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+dialog ‴If you don't press space twice, this process will not...‴
+pause ⋘space⋙
+pause ⋘enter⋙
+dialog end!

@@ -1,0 +1,9 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+-list.indexof list ⟦list⟧ value ⟦undefined⟧
+
+
+♥nameList = John❚Samantha❚Adam❚Eve❚Michael
+♥name = Samantha
+list.indexof list ♥nameList value ♥name result ♥index
+dialog ♥index

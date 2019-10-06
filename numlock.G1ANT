@@ -1,0 +1,8 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-keyboard.numlock state ⟦text⟧
+-This command switches the NumLock key on or off.
+
+keyboard.numlock off
+

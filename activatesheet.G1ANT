@@ -1,0 +1,11 @@
+addon msoffice version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+excel.open
+window ✱excel✱
+excel.addsheet ‴New Sheet‴
+excel.setvalue ‴some entry‴ row 1 colindex 1
+excel.addsheet ‴Another Sheet‴
+excel.setvalue 132 row 1 colname ‴A‴
+excel.activatesheet ‴New Sheet‴

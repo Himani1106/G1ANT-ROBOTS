@@ -1,0 +1,9 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+try errorcall oops
+   window ✱chrome✱ timeout 1000
+end
+procedure oops
+   dialog ‴oops, window not found!‴
+end

@@ -1,0 +1,9 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-dialog message ⟦text⟧
+-The dialog command displays a dialog box with a custom message. Variables can be used within the message
+
+♥name = Himani
+♥hello = ‴Hello ♥name. Nice to meet you.‴
+dialog ♥hello

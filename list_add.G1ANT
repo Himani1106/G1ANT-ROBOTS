@@ -1,0 +1,10 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-list.add list ⟦list⟧ toadd ⟦undefined⟧
+-This command creates a new list by adding an element or a list to the existing one.
+
+♥list1 = foo1❚foo2❚foo3❚123❚45
+♥list2 = a❚b❚c
+list.add list ♥list1 toadd ♥list2
+dialog ♥result

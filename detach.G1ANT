@@ -1,0 +1,13 @@
+addon iexplorer version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+ie.open google.com result ♥id1
+window ‴✱internet explorer✱‴ style maximize
+ie.open bing.com result ♥id2
+window ‴✱internet explorer✱‴
+ie.switch ♥id1
+ie.gettitle
+dialog ♥result
+ie.detach
+ie.switch ♥id1

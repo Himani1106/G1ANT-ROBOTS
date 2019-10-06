@@ -1,0 +1,8 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-color position ⟦point⟧
+-The color command retrieves the red, green and blue (RGB) color values of the pixel at the specified coordinates and returns these values as a hexadecimal number in a RRGGBB format.
+
+color position 817⫽1057 relative true
+dialog ♥result

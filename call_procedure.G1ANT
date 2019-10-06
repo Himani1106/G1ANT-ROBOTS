@@ -1,0 +1,15 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-call ⟦procedure⟧
+-the robot goes to a specified procedure
+
+♥number = 1
+call increaseNumber
+dialog ♥number
+call increaseNumber
+dialog ♥number
+
+procedure increaseNumber
+  ♥number = ♥number + 1
+end

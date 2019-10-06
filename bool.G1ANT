@@ -1,0 +1,12 @@
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+-This structure is used for variables storing the Boolean values: true and false or 0 and 1.
+♥x = ⟦bool⟧true
+dialog ♥x⟦number⟧
+♥y = false
+dialog ♥y⟦number⟧
+♥a = yes
+dialog ♥x⟦number⟧
+♥b = no
+dialog ♥x⟦number⟧

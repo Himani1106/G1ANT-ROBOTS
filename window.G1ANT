@@ -1,0 +1,8 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-This command brings the specified window to the front and activates it.
+program calc
+program notepad
+
+window ✱calculator✱ style maximized

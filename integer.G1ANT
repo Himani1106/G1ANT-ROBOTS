@@ -1,0 +1,9 @@
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+-The integer structure stores a number that can be written without a fractional component and ranging from -2,147,483,648 to 2,147,483,647.
+
+
+♥i = 467
+♥i = ♥i+1
+dialog ♥i

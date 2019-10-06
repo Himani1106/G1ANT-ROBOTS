@@ -1,0 +1,6 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-file.copy path ⟦text⟧ destinationpath ⟦text⟧
+
+file.copy path ‴D:\New folder\script video.txt‴ destinationpath ‴D:\New folder\copied_file.txt‴

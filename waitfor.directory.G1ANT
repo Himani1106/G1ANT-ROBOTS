@@ -1,0 +1,5 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+waitfor.directory path ♥environment⟦USERPROFILE⟧\Desktop\G1ANT timeout 10000 errormessage ‴No such directory!‴
+dialog ‴Directory found!‴

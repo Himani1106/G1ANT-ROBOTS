@@ -1,0 +1,8 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-directory path ⟦text⟧
+-This command allows to retrieve directory content and assign it to a variable
+
+directory path ♥environment⟦USERPROFILE⟧\Desktop pattern *.txt result ♥files
+dialog ♥files⟦count⟧

@@ -1,0 +1,5 @@
+addon iexplorer version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+ie.open g1ant.com nowait true autodetachonclose false result ♥id

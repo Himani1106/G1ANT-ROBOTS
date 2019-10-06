@@ -1,0 +1,15 @@
+addon ui version 4.101.0.0
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+-This command allows error handling using variables of error structure.
+program notepad
+keyboard ‴How error structure works!‴
+waitfor.ui ‴/ui[@name='Untitled - Notepad']/ui[@name='Font']‴ timeout 200 errorcall errorproc errorresult ♥errresult
+keyboard ⋘tab 2⋙30⋘enter⋙
+
+procedure errorproc
+    dialog ♥errresult
+    keyboard ⋘ALT+O⋙f
+     
+end

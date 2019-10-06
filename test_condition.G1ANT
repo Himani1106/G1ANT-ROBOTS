@@ -1,0 +1,6 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+♥firstText = ‴bananas and kiwi‴
+♥secondText = orange
+test condition ⊂♥firstText==♥secondText⊃ errormessage ‴Texts don't match‴

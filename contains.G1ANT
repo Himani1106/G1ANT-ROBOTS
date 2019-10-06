@@ -1,0 +1,9 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-contains dictionary ⟦dictionary⟧ key ⟦text⟧
+-This command checks if a specified dictionary contains a given key
+-username:g1ant and password:mypass123 key-value pairs
+♥dictionary = ⟦dictionary⟧username❚g1ant❚password❚mypass123
+contains ♥dictionary key himani
+dialog ♥result

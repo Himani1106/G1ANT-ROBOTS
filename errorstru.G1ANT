@@ -1,0 +1,9 @@
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+program notepad
+window ✱notepad errorresult ♥error errorjump dothis
+dialog OK
+
+label dothis
+dialog ‴♥error⟦type⟧, ♥error⟦message⟧‴

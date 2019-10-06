@@ -1,0 +1,14 @@
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+-Addon 'Language' provides basic functionality and cannot be removed
+
+
+call loop
+
+procedure loop
+  for ♥i from 1 to 3
+    dialog ♥i
+  end
+end
+-This command ends a command block started with the following commands: for, foreach, if, procedure, try, while.

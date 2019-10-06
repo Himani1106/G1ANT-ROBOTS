@@ -1,0 +1,14 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-The break command immediately exits current block and continues process execution.
+
+for ♥cnt from 1 to 20
+  if ⊂♥cnt==10⊃
+    dialog Break!
+    break
+    dialog ‴This will not show, because the loop was broken‴
+  end
+end
+
+dialog ♥cnt

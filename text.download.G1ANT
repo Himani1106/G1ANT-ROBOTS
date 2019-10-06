@@ -1,0 +1,7 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-This command downloads text content from a specified website and assigns it to a variable
+text.download url http://www.google.com result ♥clipboard
+program notepad
+keyboard ⋘ctrl+v⋙

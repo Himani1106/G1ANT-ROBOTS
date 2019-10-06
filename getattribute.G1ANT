@@ -1,0 +1,10 @@
+addon iexplorer version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+ie.open google.com
+window ‴✱internet explorer✱‴ style maximize
+ie.getattribute title search q by name
+dialog ♥result
+ie.getattribute role search q by name
+dialog ♥result

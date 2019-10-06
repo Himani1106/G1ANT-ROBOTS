@@ -1,0 +1,9 @@
+addon iexplorer version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+ie.open google.com
+delay 5
+ie.fireevent onclick search gb_70 by id timeout 15000
+ie.gettitle ♥title
+dialog ♥title

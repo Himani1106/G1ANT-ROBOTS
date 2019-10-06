@@ -1,0 +1,9 @@
+addon googledocs version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+googlesheet.open 1CTN7HNk-1AcuHeOxnZJeHx9qMz726_P8o-AD2dumHZU result ♥sheetId
+dialog ♥sheetId
+googlesheet.close ♥sheetId
+
+-When the document is opened, the robot assigns its own ID to this Google Sheets instance and you can use it later to close this particular instance with the googlesheet.close command or switch to it with the googlesheet.switch command.

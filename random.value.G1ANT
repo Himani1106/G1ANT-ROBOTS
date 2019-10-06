@@ -1,0 +1,7 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+random.value min -1000 max 1000
+dialog ♥result
+random.value min -1000 max 1000
+dialog ♥result

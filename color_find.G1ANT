@@ -1,0 +1,9 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-color.find color ⟦text⟧ position ⟦point⟧ direction ⟦text⟧
+-The color.find command allows to capture the first pixel in the specified direction, starting from the predefined position, that matches the specified color
+
+color.find color FFFFFF position 376⫽1060 direction down relative false result
+-FFFFFF for pure white
+dialog ♥result

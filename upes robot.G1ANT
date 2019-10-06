@@ -1,0 +1,43 @@
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+addon selenium version 4.100.19170.929
+
+♥loginblack = ♥credential⟦blackboard:username⟧
+♥passwordblack = ♥credential⟦blackboard:password⟧
+♥sapid = ♥credential⟦student:sapid⟧
+♥spassword = ♥credential⟦student:password⟧
+selenium.open chrome url https://learn.upes.ac.in/webapps/login/
+delay 2
+window ✱Learn✱ style maximize
+delay 2
+selenium.click search //*[@id="top-menu"]/a[1]/span by xpath
+delay 1
+selenium.activatetab search learn by url
+selenium.click search user_id by id
+keyboard ♥loginblack
+selenium.click search password by id
+keyboard ♥passwordblack
+keyboard ⋘tab⋙
+keyboard ⋘enter⋙
+delay 2
+selenium.activatetab search stu by url
+delay 5
+selenium.click search /html/body/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[1]/td[4]/a/div by xpath
+selenium.activatetab search learn by url
+delay 2
+selenium.click search //*[@id="agree_button"] by xpath
+selenium.click search //*[@id="global-nav-link"] by xpath
+delay 1
+selenium.click search //*[@id="AlertsOnMyBb_____AlertsTool"] by xpath
+delay 2
+selenium.activatetab search stu by url
+delay 5
+selenium.click search //*[@id="WD2E"] by xpath
+keyboard ♥sapid
+keyboard ⋘enter⋙
+keyboard ⋘tab⋙
+keyboard ♥spassword
+keyboard ⋘tab 2⋙
+keyboard ⋘enter⋙
+delay 5
+selenium.click search //*[@id="WD0279"] by xpath

@@ -1,0 +1,5 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+waitfor.file path ♥environment⟦USERPROFILE⟧\Desktop\G1ANT\test.txt timeout 10000 errormessage ‴No file!‴
+dialog ‴File found!‴

@@ -1,0 +1,7 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-dialog.ask message ⟦text⟧ result ⟦variable⟧
+-This command allows to enter text that will be assigned to the specified variable
+dialog.ask message ‴What is your name?‴ result ♥name
+dialog ♥name

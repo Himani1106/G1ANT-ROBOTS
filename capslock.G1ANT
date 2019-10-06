@@ -1,0 +1,11 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-keyboard.capslock state ⟦text⟧
+-switches the CapsLock key on or off
+
+program notepad
+keyboard.capslock on
+keyboard ‴a‴⋘a⋙‴b‴⋘b⋙⋘ENTER⋙
+keyboard.capslock off
+keyboard ‴a‴⋘a⋙‴b‴⋘b⋙

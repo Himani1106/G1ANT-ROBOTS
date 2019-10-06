@@ -1,0 +1,6 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+text.write ‴⊂"\r\n"⊃Lorem Ipsum‴ filename C:\Users\Himani\Desktop\G1ANT\test.txt writemode append 
+
+-text.write ‴⊂"\r\n"⊃Lorem Ipsum‴ filename C:\Users\Himani\Desktop\G1ANT\test.txt writemode override

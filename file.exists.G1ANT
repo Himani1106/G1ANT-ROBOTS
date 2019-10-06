@@ -1,0 +1,9 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+file.exists ♥environment⟦USERPROFILE⟧\Desktop\G1ANT\temp.txt errorcall notFound
+dialog ‴File exists‴
+
+procedure notFound
+    dialog ‴File not found‴
+end

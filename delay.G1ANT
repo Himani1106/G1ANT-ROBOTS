@@ -1,0 +1,9 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-delay ⟦integer⟧
+-The delay command allows to suspend robot for a specified time in seconds and milliseconds before it proceeds to the next action.
+
+program notepad
+delay 4 milliseconds 500
+keyboard Hello!

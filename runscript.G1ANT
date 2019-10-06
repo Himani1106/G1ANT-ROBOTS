@@ -1,0 +1,7 @@
+addon iexplorer version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+ie.open
+window ‴✱internet explorer✱‴
+ie.runscript ‴alert("Hello world!");‴

@@ -1,0 +1,7 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+string.getsimilarity phrase1 robot phrase2 robot
+dialog ♥result
+string.getsimilarity phrase1 robot phrase2 robotize
+dialog ♥result

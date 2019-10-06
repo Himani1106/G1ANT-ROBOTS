@@ -1,0 +1,15 @@
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+-The date structure stores information about the date.
+♥myDate = ⟦date⟧8/07/2019
+♥myDate2 = ⟦date⟧2.04.2019
+-You can either use / , -, , or . separator characters
+- default format is MM/dd/yyyy. To change the order, in which the input numbers are recognized as particular date fields, you have to set the date format during casting:
+
+♥myDate3 = ⟦date:dd-MM-yyyy⟧21-02-2019
+
+dialog ♥myDate
+dialog ♥myDate⟦year⟧
+dialog ♥myDate⟦month⟧
+dialog ♥myDate⟦day⟧

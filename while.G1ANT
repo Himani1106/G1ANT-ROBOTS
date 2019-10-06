@@ -1,0 +1,8 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+♥index = 1
+while ♥index<5
+   dialog ♥index
+   ♥index = ♥index + 1
+end

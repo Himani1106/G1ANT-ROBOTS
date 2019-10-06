@@ -1,0 +1,6 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+♥source = Name: John Surname: Smith
+text.replace ♥source search John replace Tom result ♥name
+dialog ♥name

@@ -1,0 +1,16 @@
+addon net version 4.101.0.0
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+-mail structure stores current information about a mail message, which was downloaded with the mail.imap command.
+
+♥login = ♥credential⟦gmail:login⟧
+♥password = ♥credential⟦gmail:password⟧
+♥from = ⟦datetime⟧9/22/2019 00:00:00 AM
+♥to = ⟦datetime⟧9/23/2019 00:00:00 AM
+
+mail.imap host imap.gmail.com port 993 login ♥login password ♥password sincedate ♥from todate ♥to timeout 60000 onlyunreadmessages true markasread false result ♥result 
+
+foreach ♥element in ♥result
+   dialog ♥element⟦subject⟧
+   
+end

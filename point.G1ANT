@@ -1,0 +1,9 @@
+addon core version 4.101.0.0
+addon language version 4.103.0.0
+
+-This structure stores pixel coordinates values. It uses x⫽y format, where XY values are separated with the point separator character (⫽)
+♥point = 935⫽580
+dialog ♥point⟦x⟧
+dialog ♥point⟦y⟧
+♥point⟦x⟧ = 800
+dialog ♥point

@@ -1,0 +1,13 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-color.expected position ⟦point⟧ color ⟦text⟧
+-The color.expected command waits until a given RGB color appears at the specified coordinates of the screen. 
+
+color.expected position 423⫽1060 color FFFFFF relative true errorcall notFound
+dialog ‴Color found‴
+
+procedure notFound
+    dialog ‴Color not found‴
+    stop silentmode true    
+end

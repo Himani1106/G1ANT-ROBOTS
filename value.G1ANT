@@ -1,0 +1,8 @@
+addon googledocs version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+googlesheet.open 1CTN7HNk-1AcuHeOxnZJeHx9qMz726_P8o-AD2dumHZU
+googlesheet.getvalue A3 result ♥values
+dialog ♥values
+googlesheet.close

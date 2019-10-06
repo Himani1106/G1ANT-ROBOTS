@@ -1,0 +1,5 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+shell ‴ipconfig /all‴
+dialog ♥result

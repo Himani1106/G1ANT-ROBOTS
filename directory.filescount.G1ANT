@@ -1,0 +1,5 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+directory.filescount path ♥environment⟦USERPROFILE⟧\Desktop pattern *.png result ♥number
+dialog ♥number 

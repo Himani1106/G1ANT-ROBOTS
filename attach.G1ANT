@@ -1,0 +1,6 @@
+addon iexplorer version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+program iexplore arguments google.com
+ie.attach google by title

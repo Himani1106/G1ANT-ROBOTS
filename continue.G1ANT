@@ -1,0 +1,11 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-This command stops executing the current block and goes to the next iteration.
+
+♥list = one❚two❚three
+foreach ♥element in ♥list
+    dialog ♥element
+    continue
+    dialog ‴You won't see me!‴
+end

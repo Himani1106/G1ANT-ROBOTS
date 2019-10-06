@@ -1,0 +1,6 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+directory.exists path ♥environment⟦USERPROFILE⟧\Desktop\ABC errormessage ‴Directory not found‴
+dialog ‴Directory exists‴
+

@@ -1,0 +1,45 @@
+addon selenium version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+dialog.ask ‴Enter Video Title‴ result ♥Title
+dialog.ask ‴Enter Video Description or press space for no video description‴ result ♥Description
+dialog.ask ‴Enter Video Tags or press space for no video tags‴ result ♥Tags
+
+selenium.open chrome url google.com
+delay 2
+window ✱Google✱
+selenium.click search gb_70 by id
+selenium.click search //*[@id="identifierId"] by xpath
+
+♥login = ♥credential⟦gmail:login⟧
+♥password = ♥credential⟦gmail:password⟧
+keyboard ♥login 
+keyboard ⋘enter⋙
+delay 2
+selenium.click search //*[@id="password"]/div[1]/div/div[1]/input by xpath
+keyboard ♥password
+keyboard ⋘enter⋙
+delay 2
+selenium.newtab url www.youtube.com/upload
+delay 10
+window ✱Video✱
+
+♥video=1658⫽403
+♥drop=495⫽553
+
+mouse.click ♥video relative false type down
+mouse.click ♥drop relative false type up mousedelay 500
+
+window ✱YouTube✱ style maximize
+
+selenium.click search //*[@id="upload-item-0"]/div[3]/div[2]/div/div/div[1]/div[3]/form/div[1]/fieldset[1]/div/label[1]/span/input by xpath
+keyboard ⋘ctrl+a⋙
+keyboard ⋘delete⋙
+keyboard ♥Title
+keyboard ⋘tab⋙
+keyboard ♥Description
+keyboard ⋘tab⋙
+keyboard ♥Tags
+
+selenium.click search //*[@id="upload-item-0"]/div[3]/div[1]/div[1]/div/div/button by xpath

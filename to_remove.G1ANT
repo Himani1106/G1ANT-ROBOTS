@@ -1,0 +1,10 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+-list.remove list ⟦list⟧ toremove ⟦undefined⟧
+
+♥riverNames = Quiet Run❚Moaning Beck❚Gleaming Brook❚Cirq Tributary
+dialog ♥riverNames
+♥toRemove = Moaning Beck❚Cirq Tributary
+list.remove list ♥riverNames toremove ♥toRemove result ♥newList
+dialog ♥newList

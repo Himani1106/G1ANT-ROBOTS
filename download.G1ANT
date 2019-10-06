@@ -1,0 +1,4 @@
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+file.download url http://download.teamviewer.com/download/TeamViewer_Setup_en.exe filename TeamViewer.exe timeout 1

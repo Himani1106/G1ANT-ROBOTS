@@ -1,0 +1,9 @@
+addon iexplorer version 4.100.19170.929
+addon core version 4.100.19170.929
+addon language version 4.100.19170.929
+
+ie.open google.com nowait true
+window ✱internet✱
+ie.seturl g1ant.com
+ie.waitforcomplete 1000
+ie.seturl duckduckgo.com
